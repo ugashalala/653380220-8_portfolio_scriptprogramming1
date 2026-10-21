@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter and VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Sensitive credentials
+.env
+
+# Log files
+*.log
+
+# Downloaded attachments
+data/attachments/
