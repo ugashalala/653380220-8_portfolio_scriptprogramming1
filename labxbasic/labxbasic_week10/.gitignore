@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter and editor settings
+.ipynb_checkpoints/
+.vscode/
+
+# Environment variables
+.env
+
+# Generated output
+data/output_sales_report.xlsx
