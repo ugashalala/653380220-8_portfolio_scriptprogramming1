@@ -15,3 +15,6 @@ venv/
 # Generated files / downloaded attachments
 data/incoming_attachments/
 reports/
+
+# Sensitive credentials
+.env
