@@ -2,13 +2,14 @@
 
 ### อัครพงษ์ ศรีโฉม 653380220-8 sec2
 
-# 📌 CONTENTS
+# CONTENTS
 
 - [LAB](#lab)
 - [LABX Basic](#labx-basic)
 - [LABX Advance](#labx-advance)
+- [Feedback](#feedback)
 
-```CSS
+```bash
 [ x ] คืองานส่วนที่ไม่ได้ทำ
 ```
 
@@ -40,3 +41,5 @@
 6. [mini Project](labxAdvance/miniproject)
 7. Final Project [ x ]
 8. [certificate](labxAdvance/certificate_python1.pdf)
+
+# Feedback
