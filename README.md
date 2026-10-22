@@ -1,5 +1,5 @@
-# portfolio _scriptprogramming1
+# PORTFOLIO
 
-# 653380220-8_sec2_script_programming
+# Script Programming 1/2569
 
 อัครพงษ์ ศรีโฉม 653380220-8 sec2
