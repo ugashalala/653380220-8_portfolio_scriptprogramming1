@@ -9,7 +9,7 @@
 - [LABX Advance](#labx-advance)
 - [Feedback](#feedback)
 
-```bash
+```CSS
 [ x ] คืองานส่วนที่ไม่ได้ทำ
 ```
 
@@ -43,3 +43,7 @@
 8. [certificate](labxAdvance/certificate_python1.pdf)
 
 # Feedback
+
+```CSS
+Feedback for this course : It really helped me reach a whole new level of understanding in Python. Personally, I wasn't a huge fan of the group project, but I understand its purpose in simulating real-world teamwork.
+```
