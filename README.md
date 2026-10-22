@@ -44,6 +44,5 @@
 
 # Feedback
 
-```bash
-Feedback for this course : It really helped me reach a whole new level of understanding in Python. Personally, I wasn't a huge fan of the group project, but I understand its purpose in simulating real-world teamwork.
-```
+- Feedback for this course : It really helped me reach a whole new level of understanding in Python.
+  Personally, I wasn't a huge fan of the group project, but I understand its purpose in simulating real-world teamwork.
