@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+.vscode/
+
+# Environment
+.env
+
+# Data files (scraped output)
+data/
+
+# WebDriver logs
+geckodriver.log
+chromedriver.log
