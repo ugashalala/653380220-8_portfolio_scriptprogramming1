@@ -1,0 +1,150 @@
+[
+    {
+        "timestamp": "2026-10-22T08:57:28.052242",
+        "status": "INFO",
+        "task_type": "agent_run",
+        "message": "Document Agent started.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.052328",
+        "status": "INFO",
+        "task_type": "generate_word_report",
+        "message": "Starting task 'Generate Monthly Performance Report'",
+        "details": {
+            "name": "Generate Monthly Performance Report",
+            "type": "generate_word_report",
+            "template_path": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\templates/report_template.docx",
+            "output_path": "documents/generated_report.docx",
+            "data": {
+                "REPORT_TITLE": "Monthly Performance Summary",
+                "INTRODUCTION_TEXT": "This automated report provides a summary of key performance indicators.",
+                "MONTH_PERIOD": "August 2026"
+            },
+            "table_data": [
+                [
+                    "Category",
+                    "Value",
+                    "Trend"
+                ],
+                [
+                    "Sales Revenue",
+                    "$120,000",
+                    "Up 10%"
+                ],
+                [
+                    "Customer Acquisition",
+                    "500",
+                    "Stable"
+                ],
+                [
+                    "Project Completion Rate",
+                    "95%",
+                    "Excellent"
+                ]
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.071943",
+        "status": "SUCCESS",
+        "task_type": "generate_word_report",
+        "message": "Task 'Generate Monthly Performance Report' completed.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.072068",
+        "status": "INFO",
+        "task_type": "apply_pdf_watermark",
+        "message": "Starting task 'Apply Confidential Watermark to PDF'",
+        "details": {
+            "name": "Apply Confidential Watermark to PDF",
+            "type": "apply_pdf_watermark",
+            "input_pdf": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/source_document.pdf",
+            "output_pdf": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/watermarked_document.pdf",
+            "watermark_text": "CONFIDENTIAL",
+            "font_size": 70,
+            "color": [
+                1,
+                0,
+                0,
+                0.15
+            ],
+            "angle": 55
+        }
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.128344",
+        "status": "SUCCESS",
+        "task_type": "apply_pdf_watermark",
+        "message": "Task 'Apply Confidential Watermark to PDF' completed.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.128512",
+        "status": "INFO",
+        "task_type": "merge_pdfs",
+        "message": "Starting task 'Merge Project Documentation'",
+        "details": {
+            "name": "Merge Project Documentation",
+            "type": "merge_pdfs",
+            "input_pdfs": [
+                "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/dummy_doc1.pdf",
+                "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/dummy_doc2.pdf"
+            ],
+            "output_pdf": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/merged_docs.pdf"
+        }
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.136589",
+        "status": "SUCCESS",
+        "task_type": "merge_pdfs",
+        "message": "Task 'Merge Project Documentation' completed.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.136809",
+        "status": "INFO",
+        "task_type": "extract_word_text",
+        "message": "Starting task 'Extract Text from Generated Word Report'",
+        "details": {
+            "name": "Extract Text from Generated Word Report",
+            "type": "extract_word_text",
+            "input_docx": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/generated_report.docx",
+            "output_text_file": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/extracted_word_text.txt"
+        }
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.153058",
+        "status": "SUCCESS",
+        "task_type": "extract_word_text",
+        "message": "Task 'Extract Text from Generated Word Report' completed.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.153184",
+        "status": "INFO",
+        "task_type": "extract_pdf_text",
+        "message": "Starting task 'Extract Text from Source PDF'",
+        "details": {
+            "name": "Extract Text from Source PDF",
+            "type": "extract_pdf_text",
+            "input_pdf": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/source_document.pdf",
+            "output_text_file": "D:\\653380220-8_portfolio_scriptprogramming1\\labxAdvance\\labxAdvance_week11\\documents/extracted_pdf_text.txt"
+        }
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.169683",
+        "status": "SUCCESS",
+        "task_type": "extract_pdf_text",
+        "message": "Task 'Extract Text from Source PDF' completed.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-10-22T08:57:28.169872",
+        "status": "INFO",
+        "task_type": "agent_run_summary",
+        "message": "Finished in 0.12s.",
+        "details": {}
+    }
+]
