@@ -14,8 +14,8 @@
 
 # LAB X BASIC
 
-1. [LAB Basic 1 (week 7)](labxbasic/labxbasic_week7)
-2. [Lab Basic Week 8: Object-Oriented Programming (OOP) Fundamentals & Refactoring the CLI Task Manager](labxbasic/labxbasic_week8)
-3. [Week10_LabX BASIC_ Automating Spreadsheets (Excel & Google Sheets)](labxbasic/labxbasic_week10)
-4. [Week 11_LabX BASIC_ Automating PDFs & Word Documents](labxbasic/labxbasic_week11)
-5. [Week12_LabX BASIC: Automating Communications (Email & SMS)](labxbasic/labxbasic_week12)
+1. [Week7_LabX BASIC : Introduction to Web Scraping](labxbasic/labxbasic_week7)
+2. [Week8_LabX BASIC : Object-Oriented Programming (OOP) Fundamentals & Refactoring the CLI Task Manager](labxbasic/labxbasic_week8)
+3. [Week10_LabX BASIC : Automating Spreadsheets (Excel & Google Sheets)](labxbasic/labxbasic_week10)
+4. [Week 11_LabX BASIC : Automating PDFs & Word Documents](labxbasic/labxbasic_week11)
+5. [Week12_LabX BASIC : Automating Communications (Email & SMS)](labxbasic/labxbasic_week12)
